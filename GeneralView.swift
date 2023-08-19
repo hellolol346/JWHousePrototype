@@ -25,7 +25,7 @@ struct GeneralView: View {
                     .padding(EdgeInsets(top: 0, leading: 5, bottom: 0, trailing: 0))
                     .frame(maxWidth: .infinity, alignment: .leading)
                     .background(Color(red: 211/255, green: 211/255, blue: 211/255))
-                Spacer().frame(height: 30)
+                Spacer().frame(height: 20)
                 Text(animal).bold()
                     .foregroundColor(Color.red)
                     .font(.system(size:21))
